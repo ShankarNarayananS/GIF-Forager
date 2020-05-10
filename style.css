@@ -1,0 +1,120 @@
+html, body{
+    margin:0;
+    padding:0;
+    min-width: 1140px; 
+    background-color:#beef00;
+    border: double;
+    border-color: white;
+    font-family: 'Arial'; 
+}
+#wrapper { width: 95%; max-width: 
+  700px; margin: 1em auto; }
+@media (max-width: 768px) 
+{
+ #wrapper
+ { max-width: none; } }
+.gif {
+    height: 350px;
+    width: 350px;
+}
+
+#header {
+    width:100%;
+    margin:0px auto;
+    height: 300px;
+    text-align: center;
+    }
+
+#header:hover {
+    background-position: right left;
+}
+
+#search-bar {
+    padding-top: 150px;
+    
+}
+
+#search-text {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-family: 'Arial'; 
+}
+
+#search-text:hover{
+     border-color: #fafafa #b9b9b9 #b9b9b9 #b9b9b9; 
+}
+
+#search-btn {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color:black;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 16px;
+    height:36px;
+    font-family: 'Arial'; 
+}
+
+#search-btn:hover {
+  background-color: purple;   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+   
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Arial'; 
+}
+
+.tab button:hover {
+    background-color: purple;
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; 
+}
+
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

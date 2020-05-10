@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIF Forager®</title>
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+    <h1 align="center" style="color:red;font-size:75px"><b>GIF Forager®</b></h1>
+    <img src="giphy.gif" width="300" height="400" class="center">  
+	<div id="wrapper">
+    <div id="header">
+        <div id="search-bar">
+            <input id="search-text" type="text" placeholder="what can I search for you?" />
+            <button id="search-btn" type="submit"><b>Search</b></button>
+           
+        </div>
+    </div>
+    
+    <div id="toShow" class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Trending')"><b>Today's Top Collection </b></button>
+    
+        <button class="tablinks" onclick="openTab(event, 'Search')" id="defaultOpen"><b>Here's your search result</b></button>
+    </div>
+   
+    <div id="Trending" class="tabcontent">
+        <div id="trending-gifs">
+        </div>  
+    </div>
+      
+
+
+    <div id="Search" class="tabcontent">
+        
+        <div id="inner">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
