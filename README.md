@@ -2,6 +2,8 @@
 
 ![](https://github.com/ShankarNarayananS/GIF-Forager/blob/master/GIF-Forager.gif)
 
+<h3> Click <a href="https://www.youtube.com/watch?v=q29ftZ00KlE">here</a> for a better view </h3>
+
 <h2><ins>Features</ins></h2>
 <h4>1. Search for any GIF using this client </h4>
 <h4>2. Get Top Trending GIF with your search </h4>
